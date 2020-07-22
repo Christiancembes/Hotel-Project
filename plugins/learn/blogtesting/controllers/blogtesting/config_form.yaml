@@ -1,0 +1,11 @@
+name: Blogtesting
+modelClass: Learn\Blogtesting\Models\Blogtesting
+form: $/learn/blogtesting/models/blogtesting/fields.yaml
+defaultRedirect: learn/blogtesting/blogtesting
+create:
+    redirect: 'learn/blogtesting/blogtesting/update/:id'
+    redirectClose: learn/blogtesting/blogtesting
+update:
+    redirect: learn/blogtesting/blogtesting
+    redirectClose: learn/blogtesting/blogtesting
+preview: {  }

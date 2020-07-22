@@ -1,0 +1,21 @@
+columns:
+    id_transaksi:
+        label: ID
+        type: number
+        searchable: true
+        sortable: true
+    hotel_id:
+        label: Hotel
+        type: text
+        searchable: true
+        sortable: true
+    pegawai_id:
+        label: Pegawai
+        type: text
+        searchable: true
+        sortable: true
+    pelanggan_id:
+        label: Pelanggan
+        type: text
+        searchable: true
+        sortable: true

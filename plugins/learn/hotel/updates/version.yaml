@@ -1,0 +1,62 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table learn_hotel_'
+    - builder_table_create_learn_hotel_.php
+1.0.3:
+    - 'Created table learn_hotel_hotel'
+    - builder_table_create_learn_hotel_hotel.php
+1.0.4:
+    - 'Created table learn_hotel_pegawais'
+    - builder_table_create_learn_hotel_pegawais.php
+1.0.5:
+    - 'Created table learn_hotel_pelanggans'
+    - builder_table_create_learn_hotel_pelanggans.php
+1.0.6:
+    - 'Created table learn_hotel_kamars'
+    - builder_table_create_learn_hotel_kamars.php
+1.0.7:
+    - 'Updated table learn_hotel_kamars'
+    - builder_table_update_learn_hotel_kamars.php
+1.0.8:
+    - 'Updated table learn_hotel_kamars'
+    - builder_table_update_learn_hotel_kamars_2.php
+1.0.9:
+    - 'Updated table learn_hotel_kamars'
+    - builder_table_update_learn_hotel_kamars_3.php
+1.0.10:
+    - 'Created table learn_hotel_hotel_kamar_hotels'
+    - builder_table_create_learn_hotel_hotel_kamar_hotels.php
+1.0.11:
+    - 'Updated table learn_hotel_kamars'
+    - builder_table_update_learn_hotel_kamars_4.php
+1.0.12:
+    - 'Updated table learn_hotel_hotel_kamar_hotels'
+    - builder_table_update_learn_hotel_hotel_kamar_hotels.php
+1.0.13:
+    - 'Updated table learn_hotel_hotel_kamar_hotels'
+    - builder_table_update_learn_hotel_hotel_kamar_hotels_2.php
+1.0.14:
+    - 'Updated table learn_hotel_hotel_kamar_hotels'
+    - builder_table_update_learn_hotel_hotel_kamar_hotels_3.php
+1.0.15:
+    - 'Updated table learn_hotel_hotel_kamar_hotels'
+    - builder_table_update_learn_hotel_hotel_kamar_hotels_4.php
+1.0.16:
+    - 'Updated table learn_hotel_hotel_transaksi'
+    - builder_table_update_learn_hotel_hotel_transaksi.php
+1.0.17:
+    - 'Updated table learn_hotel_hotel_transaksi'
+    - builder_table_update_learn_hotel_hotel_transaksi_2.php
+1.0.18:
+    - 'Updated table learn_hotel_hotel_transaksi'
+    - builder_table_update_learn_hotel_hotel_transaksi_3.php
+1.0.19:
+    - 'Updated table learn_hotel_hotel_transaksi'
+    - builder_table_update_learn_hotel_hotel_transaksi_4.php
+1.0.20:
+    - 'Updated table learn_hotel_hotel_detail_transaksi'
+    - builder_table_update_learn_hotel_hotel_detail_transaksi.php
+1.0.21:
+    - 'Updated table learn_hotel_hotel_detail_transaksi'
+    - builder_table_update_learn_hotel_hotel_detail_transaksi_2.php

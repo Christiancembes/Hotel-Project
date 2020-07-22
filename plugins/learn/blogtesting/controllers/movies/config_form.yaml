@@ -1,0 +1,10 @@
+name: Movies
+form: $/learn/blogtesting/models/blogtesting/fields.yaml
+modelClass: Learn\Blogtesting\Models\Blogtesting
+defaultRedirect: learn/blogtesting/movies
+create:
+    redirect: 'learn/blogtesting/movies/update/:id'
+    redirectClose: learn/blogtesting/movies
+update:
+    redirect: learn/blogtesting/movies
+    redirectClose: learn/blogtesting/movies

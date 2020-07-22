@@ -1,0 +1,19 @@
+fields:
+    hotels:
+        label: 'Nama Hotel'
+        nameFrom: nama_hotel
+        descriptionFrom: description
+        span: left
+        type: relation
+    pelanggans:
+        label: 'Nama Pelanggan'
+        nameFrom: nama_pelanggan
+        descriptionFrom: description
+        span: left
+        type: relation
+    kamars:
+        label: Kamar
+        span: left
+        nameFrom: type_kmr
+        descriptionFrom: description
+        type: relation

@@ -1,0 +1,36 @@
+columns:
+    id:
+        label: ID
+        type: number
+        searchable: true
+        sortable: true
+    nama_pegawai:
+        label: 'Nama Pegawai'
+        type: text
+        searchable: true
+        sortable: true
+    tempat_tanggal_lahir:
+        label: 'Tempa Tanggal Lahir'
+        type: number
+        searchable: true
+        sortable: true
+    jenis_kelamin:
+        label: 'Jenis Kelamin'
+        type: text
+        searchable: true
+        sortable: true
+    umur:
+        label: Umur
+        type: text
+        searchable: true
+        sortable: true
+    domisili:
+        label: Alamat
+        type: text
+        searchable: true
+        sortable: true
+    tanggal:
+        label: Tanggal
+        type: date
+        searchable: true
+        sortable: true

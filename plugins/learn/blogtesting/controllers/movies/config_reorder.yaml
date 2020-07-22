@@ -1,0 +1,4 @@
+title: Movies
+modelClass: Learn\Blogtesting\Models\Blogtesting
+toolbar:
+    buttons: reorder_toolbar

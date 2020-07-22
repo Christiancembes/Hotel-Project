@@ -1,0 +1,43 @@
+
+description = "Default layout"
+==
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>October CMS - {{ this.page.title }}</title>
+        <meta name="description" content="{{ this.page.meta_description }}">
+        <meta name="title" content="{{ this.page.meta_title }}">
+        <meta name="author" content="OctoberCMS">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="generator" content="OctoberCMS">
+        <link rel="icon" type="image/png" href="{{ 'assets/images/october.png'|theme }}">
+        <link href="{{ 'assets/compiled/css/vendor.css'|theme }}" rel="stylesheet">
+        <link href="{{ 'assets/compiled/css/style.css'|theme }}" rel="stylesheet">
+        {% styles %}
+    </head>
+    <body>
+
+        <header id="layout-header">
+        {% partial "header" %}
+        </header>
+                <!-- Content -->
+        <section id="layout-content" class="container clearfix">
+            
+            {% page %}
+        </section>
+
+        <!-- Footer -->
+        <footer id="layout-footer">
+            {% partial 'footer' %}
+        </footer>
+
+        <!-- Scripts -->
+        <script src="{{ 'assets/compiled/js/jquery.js'|theme }}"></script>
+        <script src="{{ 'assets/compiled/js/bootstrap.js'|theme }}"></script>
+        <script src="{{ 'assets/compiled/js/app.js'|theme }}"></script>
+        {% framework extras %}
+        {% scripts %}
+
+    </body>
+</html>

@@ -1,0 +1,4 @@
+title: Hotels
+modelClass: Learn\Hotel\Models\Hotel
+toolbar:
+    buttons: reorder_toolbar

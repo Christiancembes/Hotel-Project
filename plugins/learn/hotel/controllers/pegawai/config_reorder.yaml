@@ -1,0 +1,4 @@
+title: Pegawai
+modelClass: Learn\Hotel\Models\Pegawai
+toolbar:
+    buttons: reorder_toolbar

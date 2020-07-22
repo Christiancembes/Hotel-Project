@@ -1,0 +1,38 @@
+columns:
+    id:
+        label: ID
+        type: number
+        searchable: true
+        sortable: true
+    nama_hotel:
+        label: 'Nama Hotel'
+        type: text
+        searchable: true
+        sortable: true
+    alamat:
+        label: Alamat
+        type: text
+        searchable: true
+        sortable: true
+    kota:
+        label: Kota
+        type: text
+        searchable: true
+        sortable: true
+    negara:
+        label: Negara
+        type: text
+        searchable: true
+        sortable: true
+    type_hotel:
+        label: Type
+        type: text
+        searchable: true
+        sortable: true
+    type_kmr:
+        label: 'Type Kamar'
+        type: text
+        searchable: true
+        sortable: true
+        select: type_kmr
+        relation: kamars

@@ -1,0 +1,29 @@
+fields:
+    name:
+        label: Name
+        span: full
+        preset:
+            field: name
+            type: slug
+        type: text
+    genres:
+        label: Genre
+        nameFrom: genre_title
+        descriptionFrom: description
+        span: auto
+        type: relation
+    actors:
+        label: Actor
+        span: left
+        nameFrom: first_name
+        descriptionFrom: description
+        type: relation
+    keterangan:
+        label: Keterangan
+        span: left
+        type: text
+    tanggal:
+        label: Tanggal
+        span: left
+        mode: date
+        type: datepicker

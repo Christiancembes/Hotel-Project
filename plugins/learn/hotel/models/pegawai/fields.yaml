@@ -1,0 +1,30 @@
+fields:
+    nama_pegawai:
+        label: 'Nama Pegawai'
+        span: left
+        type: text
+    tempat_tanggal_lahir:
+        label: 'Tempat Tanggal Lahir'
+        span: left
+        type: text
+    umur:
+        label: Umur
+        span: left
+        type: text
+    domisili:
+        label: Alamat
+        span: left
+        type: text
+    jenis_kelamin:
+        label: 'Jenis Kelamin'
+        showSearch: true
+        span: left
+        options:
+            Pria: Pria
+            Wanita: Wanita
+        type: dropdown
+    tanggal:
+        label: Tanggal
+        span: left
+        mode: date
+        type: datepicker

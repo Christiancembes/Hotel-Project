@@ -1,0 +1,10 @@
+name: Pegawai
+form: $/learn/hotel/models/pegawai/fields.yaml
+modelClass: Learn\Hotel\Models\Pegawai
+defaultRedirect: learn/hotel/pegawai
+create:
+    redirect: 'learn/hotel/pegawai/update/:id'
+    redirectClose: learn/hotel/pegawai
+update:
+    redirect: learn/hotel/pegawai
+    redirectClose: learn/hotel/pegawai

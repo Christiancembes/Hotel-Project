@@ -1,0 +1,16 @@
+title = "Hotel"
+url = "/hotel"
+layout = "default"
+is_hidden = 0
+
+[builderList]
+modelClass = "Learn\Hotel\Models\Hotel"
+scope = "-"
+scopeValue = "{{ :scope }}"
+displayColumn = "nama_hotel"
+noRecordsMessage = "No records found"
+detailsPage = "-"
+detailsUrlParameter = "id"
+pageNumber = "{{ :page }}"
+==
+<h1>Hotel</h1>{% component 'builderList' %}

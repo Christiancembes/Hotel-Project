@@ -1,0 +1,12 @@
+fields:
+    type_kmr:
+        label: Type
+        span: auto
+        preset:
+            field: type_kmr
+            type: slug
+        type: text
+    hrg:
+        label: Harga
+        span: left
+        type: text

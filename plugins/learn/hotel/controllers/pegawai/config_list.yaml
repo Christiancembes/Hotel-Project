@@ -1,0 +1,12 @@
+list: $/learn/hotel/models/pegawai/columns.yaml
+modelClass: Learn\Hotel\Models\Pegawai
+title: Pegawai
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'learn/hotel/pegawai/update/:id'

@@ -1,0 +1,28 @@
+plugin:
+    name: 'learn.hotel::lang.plugin.name'
+    description: 'learn.hotel::lang.plugin.description'
+    author: learn
+    icon: oc-icon-hotel
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Hotel
+        url: learn/hotel/hotels
+        icon: icon-hotel
+        sideMenu:
+            side-menu-item:
+                label: Kamar
+                url: learn/hotel/kamars
+                icon: icon-tag
+    main-menu-item2:
+        label: Pegawai
+        url: learn/hotel/pegawai
+        icon: icon-child
+    main-menu-item3:
+        label: Pelanggan
+        url: learn/hotel/pelanggan
+        icon: icon-child
+    main-menu-item4:
+        label: Transaksi
+        url: /
+        icon: icon-home

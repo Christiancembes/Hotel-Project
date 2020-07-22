@@ -1,0 +1,13 @@
+title = "pegawai"
+url = "/pegawai"
+layout = "default"
+is_hidden = 0
+
+[builderDetails]
+modelClass = "Learn\Hotel\Models\Pegawai"
+identifierValue = "{{ :id }}"
+modelKeyColumn = "id"
+displayColumn = "nama_pegawai"
+notFoundMessage = "Record not found"
+==
+{% component 'builderDetails' %}

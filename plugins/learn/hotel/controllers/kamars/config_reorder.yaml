@@ -1,0 +1,4 @@
+title: Kamars
+modelClass: Learn\Hotel\Models\Kamar
+toolbar:
+    buttons: reorder_toolbar

@@ -1,0 +1,4 @@
+title: Pelanggan
+modelClass: Learn\Hotel\Models\Pelanggan
+toolbar:
+    buttons: reorder_toolbar

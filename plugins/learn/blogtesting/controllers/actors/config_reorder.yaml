@@ -1,0 +1,4 @@
+title: Actors
+modelClass: Learn\Blogtesting\Models\Actor
+toolbar:
+    buttons: reorder_toolbar

@@ -1,0 +1,41 @@
+columns:
+    id:
+        label: ID
+        type: number
+        searchable: true
+        sortable: true
+    nik:
+        label: 'No KTP'
+        type: number
+        searchable: true
+        sortable: true
+    nama_pelanggan:
+        label: 'Nama Pengunjung'
+        type: text
+        searchable: true
+        sortable: true
+    jenis_kelamin:
+        label: 'Jenis Kelamin'
+        type: text
+        searchable: true
+        sortable: true
+    umur:
+        label: Umur
+        type: number
+        searchable: true
+        sortable: true
+    domisili:
+        label: Alamat
+        type: text
+        searchable: true
+        sortable: true
+    jml_tamu:
+        label: 'Jumlah Tamu'
+        type: number
+        searchable: true
+        sortable: true
+    no_tlp:
+        label: 'No Hp'
+        type: number
+        searchable: true
+        sortable: true

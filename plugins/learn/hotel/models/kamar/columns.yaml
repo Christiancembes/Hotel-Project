@@ -1,0 +1,11 @@
+columns:
+    type_kmr:
+        label: 'Type Kamar'
+        type: text
+        searchable: true
+        sortable: true
+    hrg:
+        label: Tarif
+        type: number
+        searchable: true
+        sortable: true

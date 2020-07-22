@@ -1,0 +1,35 @@
+columns:
+    id:
+        label: ID
+        type: number
+        searchable: true
+        sortable: true
+    name:
+        label: Nama
+        type: text
+        searchable: true
+        sortable: true
+    genre_title:
+        label: Genres
+        type: text
+        searchable: true
+        sortable: true
+        select: genre_title
+        relation: genres
+    first_name:
+        label: Actors
+        type: text
+        searchable: true
+        sortable: true
+        select: first_name
+        relation: actors
+    keterangan:
+        label: Keterangan
+        type: text
+        searchable: false
+        sortable: false
+    tanggal:
+        label: Tanggal
+        type: date
+        searchable: true
+        sortable: true

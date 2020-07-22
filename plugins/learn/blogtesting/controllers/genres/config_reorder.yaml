@@ -1,0 +1,4 @@
+title: Genres
+modelClass: Learn\Blogtesting\Models\Genre
+toolbar:
+    buttons: reorder_toolbar

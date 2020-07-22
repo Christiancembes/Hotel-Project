@@ -1,0 +1,10 @@
+name: Kamars
+form: $/learn/hotel/models/kamar/fields.yaml
+modelClass: Learn\Hotel\Models\Kamar
+defaultRedirect: learn/hotel/kamars
+create:
+    redirect: 'learn/hotel/kamars/update/:id'
+    redirectClose: learn/hotel/kamars
+update:
+    redirect: learn/hotel/kamars
+    redirectClose: learn/hotel/kamars

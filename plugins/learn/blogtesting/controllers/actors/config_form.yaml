@@ -1,0 +1,10 @@
+name: Actors
+form: $/learn/blogtesting/models/actor/fields.yaml
+modelClass: Learn\Blogtesting\Models\Actor
+defaultRedirect: learn/blogtesting/actors
+create:
+    redirect: 'learn/blogtesting/actors/update/:id'
+    redirectClose: learn/blogtesting/actors
+update:
+    redirect: learn/blogtesting/actors
+    redirectClose: learn/blogtesting/actors

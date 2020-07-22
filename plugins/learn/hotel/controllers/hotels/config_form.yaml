@@ -1,0 +1,10 @@
+name: Hotels
+form: $/learn/hotel/models/hotel/fields.yaml
+modelClass: Learn\Hotel\Models\Hotel
+defaultRedirect: learn/hotel/hotels
+create:
+    redirect: 'learn/hotel/hotels/update/:id'
+    redirectClose: learn/hotel/hotels
+update:
+    redirect: learn/hotel/hotels
+    redirectClose: learn/hotel/hotels

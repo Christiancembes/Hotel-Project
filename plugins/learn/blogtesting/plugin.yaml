@@ -1,0 +1,20 @@
+plugin:
+    name: 'learn.blogtesting::lang.plugin.name'
+    description: 'learn.blogtesting::lang.plugin.description'
+    author: learn
+    icon: oc-icon-circle
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Movie
+        url: learn/blogtesting/blogtesting
+        icon: icon-video-camera
+        sideMenu:
+            side-menu-item:
+                label: Genres
+                url: learn/blogtesting/genres
+                icon: icon-tag
+            side-menu-item2:
+                label: Actors
+                url: learn/blogtesting/actors
+                icon: icon-tag

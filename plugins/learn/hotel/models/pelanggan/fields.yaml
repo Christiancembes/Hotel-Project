@@ -1,0 +1,40 @@
+fields:
+    nik:
+        label: 'No KTP'
+        span: left
+        required: 1
+        type: text
+    nama_pelanggan:
+        label: 'Nama Pengunjung'
+        span: left
+        required: 1
+        type: text
+    jenis_kelamin:
+        label: 'Jenis Kelamin'
+        options:
+            Pria: Pria
+            Wanita: Wanita
+        showSearch: true
+        span: left
+        required: 1
+        type: dropdown
+    umur:
+        label: Umur
+        span: left
+        required: 1
+        type: text
+    domisili:
+        label: Alamat
+        span: left
+        required: 1
+        type: text
+    jml_tamu:
+        label: 'Jumlah Pengunjung'
+        span: left
+        required: 1
+        type: number
+    no_tlp:
+        label: 'No Hp'
+        span: left
+        required: 1
+        type: text

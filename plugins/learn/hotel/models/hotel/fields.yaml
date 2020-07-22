@@ -1,0 +1,32 @@
+fields:
+    nama_hotel:
+        label: 'Nama Hotel'
+        span: left
+        type: text
+    alamat:
+        label: 'Alamat Hotel'
+        span: left
+        type: text
+    kota:
+        label: Kota
+        span: left
+        type: text
+    negara:
+        label: Negara
+        span: left
+        type: text
+    type_hotel:
+        label: Dropdown
+        options:
+            'Bintang 3': 'Bintang 3'
+            'Bintang 4': 'Bintang 4'
+            'Bintang 5': 'Bintang 5'
+        showSearch: true
+        span: left
+        type: dropdown
+    kamars:
+        label: Kamars
+        nameFrom: type_kmr
+        descriptionFrom: description
+        span: left
+        type: relation

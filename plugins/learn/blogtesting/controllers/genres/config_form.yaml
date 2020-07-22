@@ -1,0 +1,10 @@
+name: Genres
+form: $/learn/blogtesting/models/genre/fields.yaml
+modelClass: Learn\Blogtesting\Models\Genre
+defaultRedirect: learn/blogtesting/genres
+create:
+    redirect: 'learn/blogtesting/genres/update/:id'
+    redirectClose: learn/blogtesting/genres
+update:
+    redirect: learn/blogtesting/genres
+    redirectClose: learn/blogtesting/genres

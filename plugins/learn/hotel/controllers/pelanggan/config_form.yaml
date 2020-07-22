@@ -1,0 +1,10 @@
+name: Pelanggan
+form: $/learn/hotel/models/pelanggan/fields.yaml
+modelClass: Learn\Hotel\Models\Pelanggan
+defaultRedirect: learn/hotel/pelanggan
+create:
+    redirect: 'learn/hotel/pelanggan/update/:id'
+    redirectClose: learn/hotel/pelanggan
+update:
+    redirect: learn/hotel/pelanggan
+    redirectClose: learn/hotel/pelanggan
