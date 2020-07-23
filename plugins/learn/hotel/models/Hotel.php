@@ -30,9 +30,7 @@ class Hotel extends Model
             'table' =>"learn_hotel_hotel_kamar_hotels",
             'order' =>'type_kmr'
         ],
-        'transaksi' =>[
-            ''
-        ]
+        
     ];
 
 

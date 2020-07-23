@@ -9,11 +9,39 @@ fields:
         label: 'Nama Pelanggan'
         nameFrom: nama_pelanggan
         descriptionFrom: description
+        span: right
+        type: relation
+    pegawais:
+        label: 'Nama Pegawai'
+        nameFrom: nama_pegawai
+        descriptionFrom: description
         span: left
         type: relation
     kamars:
         label: Kamar
-        span: left
         nameFrom: type_kmr
         descriptionFrom: description
+        span: right
         type: relation
+    jml_kmr:
+        label: 'Jml Kamar'
+        span: left
+        type: number
+    durasi:
+        label: Durasi
+        span: right
+        type: number
+    tgl_msk:
+        label: 'Tgl Masuk'
+        mode: date
+        span: left
+        type: datepicker
+    tgl_klr:
+        label: 'Tgl Keluar'
+        mode: date
+        span: right
+        type: datepicker
+    total:
+        label: 'Total Harga'
+        span: left
+        type: text

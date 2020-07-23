@@ -1,0 +1,4 @@
+title: Transaksi
+modelClass: Learn\Hotel\Models\Transaksi
+toolbar:
+    buttons: reorder_toolbar

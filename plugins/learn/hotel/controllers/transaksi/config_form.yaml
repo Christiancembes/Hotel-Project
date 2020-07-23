@@ -1,0 +1,10 @@
+name: Transaksi
+form: $/learn/hotel/models/transaksi/fields.yaml
+modelClass: Learn\Hotel\Models\Transaksi
+defaultRedirect: learn/hotel/transaksi
+create:
+    redirect: 'learn/hotel/transaksi/update/:id'
+    redirectClose: learn/hotel/transaksi
+update:
+    redirect: learn/hotel/transaksi
+    redirectClose: learn/hotel/transaksi

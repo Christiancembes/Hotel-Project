@@ -1,21 +1,54 @@
 columns:
-    id_transaksi:
+    id:
         label: ID
         type: number
         searchable: true
         sortable: true
-    hotel_id:
+    nama_hotel:
         label: Hotel
         type: text
         searchable: true
         sortable: true
-    pegawai_id:
+        select: nama_hotel
+        relation: hotels
+    nama_pegawai:
         label: Pegawai
         type: text
         searchable: true
         sortable: true
-    pelanggan_id:
+        select: nama_pegawai
+        relation: pegawais
+    nama_pelanggans:
         label: Pelanggan
         type: text
         searchable: true
         sortable: true
+        select: nama_pelanggan
+        relation: pelanggans
+    type_kmr:
+        label: 'Type Kamar'
+        type: text
+        searchable: true
+        sortable: true
+        select: type_kmr
+        relation: kamars
+    jml_kmr:
+        label: 'Jumlah Kamar'
+        type: number
+    hrg:
+        label: Harga
+        type: number
+        select: hrg
+        relation: kamars
+    tgl_msk:
+        label: 'Tgl Masuk'
+        type: datetime
+    tgl_klr:
+        label: 'Tgl Keluar'
+        type: datetime
+    durasi:
+        label: Durasi
+        type: text
+    total:
+        label: Total
+        type: number

@@ -24,20 +24,25 @@ class Transaksi extends Model
     /*Relation*/
 
     public $belongsToMany =[
-        'hotel' =>[
+        'hotels' =>[
             'learn\hotel\Models\hotel',
-            'table' =>'learn_hotel_hotel_transaksi',
+            'table' =>'learn_hotel_hotel_detail_transaksi',
             'order' =>'nama_hotel'
         ],
         'kamars' =>[
             'learn\hotel\Models\kamar',
-            'table' =>'learn_hotel_hotel_transaksi',
-            'order' =>'type_kmr','hrg'
+            'table' =>'learn_hotel_hotel_detail_transaksi',
+            'order' =>'type_kmr'
         ],
         'pelanggans' =>[
             'learn\hotel\Models\pelanggan',
-            'table' =>'learn_hotel_hotel_transaksi',
+            'table' =>'learn_hotel_hotel_detail_transaksi',
             'order' =>'nama_pelanggan'
+        ],
+        'pegawais' =>[
+            'learn\hotel\Models\pegawai',
+            'table' =>'learn_hotel_hotel_detail_transaksi',
+            'order' =>'nama_pegawai'
         ]
     ];
 
